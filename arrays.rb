@@ -38,3 +38,7 @@ is_neutered.push true
 is_neutered.shift
 #Will add false to the list of booleans at the beginning
 is_neutered.unshift false
+
+# The index position is where in the array sequence that an individual string falls. 
+# The first string in an array is classified as 0 and counts up from there going to the right
+# So in the dogs array above, Fido would be is position 0 and Fluffy would be in position 3. 
