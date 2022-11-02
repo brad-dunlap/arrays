@@ -42,3 +42,7 @@ is_neutered.unshift false
 # The index position is where in the array sequence that an individual string falls. 
 # The first string in an array is classified as 0 and counts up from there going to the right
 # So in the dogs array above, Fido would be is position 0 and Fluffy would be in position 3. 
+
+#Deleting an array at a particular index you can run arr.delete_at(index_position)
+# for example, in the array [1,2,3,4,5], performing arr.delete_at(1) would remove the 
+# 2 from this array and it is in the 1 position in the array (starts at zero)
